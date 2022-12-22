@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: "Nunito Sans";
+  letter-spacing: 1.2px;
+}
+
+.header {
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  height: 55px;
+  font-size: 2.3em;
+  color: slategray;
+  padding: 30px;
+}
+
+.todoform {
+  width: 100%;
+  margin: auto;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.todoinput {
+  width: 100%;
+  margin-left: 8px;
+  border: none;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 1.5em;
+  text-align: left;
+  height: 70px;
+  font-family: "Nunito Sans";
+  letter-spacing: 1.2px;
+}
+
+.todoinput:focus {
+  border: none;
+  border-bottom: 1px solid #f0f0f0;
+  outline: none;
+}
+
+.todobutton {
+  float: left;
+  width: 120px;
+  height: 45px;
+  background-color: #FBAB7E;
+  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);      
+  color: white;
+  font-size: 16px;
+  font-family: "Nunito Sans";
+  letter-spacing: 1.2px;
+  text-align: center;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  transition-duration: 0.4s;
+}
+
+.todobutton:hover {
+  box-shadow: 0px 0px 8px 1px rgb(255, 219, 56);
+}
+
+.editbutton {
+  float: left;
+  width: 120px;
+  height: 45px;
+  margin-left: 10px;
+  margin-right: 75%;
+  font-size: 16px;
+  text-align: center;
+  border: none;
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  letter-spacing: 1.2px;
+  border-radius: 25px;
+  font-family: "Nunito Sans";
+  transition-duration: 0.4s;
+}
+
+.editbutton:hover {
+  box-shadow: 0px 0px 8px 1px rgb(171, 189, 255);
+}
+
+
+.todoitem {
+  display: inline-block;
+  width:fit-content;
+  margin-top: 20px;
+  margin-bottom: -5px;
+  margin-left: 45px;
+  font-size: 20px;
+  height: 40px;
+  text-align: center;
+}
+
+.todoitem:hover {
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
+.deletebutton {
+  width:fit-content;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: -5px;
+  margin-left: 45px;
+  font-size: 20px;
+  height: 40px;
+  text-align: center;
+  border: none;
+  background: none;
+  color: red;
+  letter-spacing: 1.2px;
+  font-family: "Nunito Sans";
+  transition-duration: 0.4s;
+}
+
+.deletebutton:hover {
+  text-shadow: rgb(255, 101, 101) 0px 0px 2px;
+}
